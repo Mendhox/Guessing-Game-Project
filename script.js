@@ -19,8 +19,7 @@ function handleTryClick(event) {
   const inputNumber = document.querySelector('#inputNumber')
 
   if (Number(inputNumber.value) == randomNumber) {
-    screen1.classList.add('hide')
-    screen2.classList.remove('hide')
+    toggleScreen()
 
     if (xAttempts == 1) {
       screen2.querySelector(
@@ -39,7 +38,11 @@ function handleTryClick(event) {
 }
 
 function handleResetClick() {
-  screen1.classList.remove('hide')
-  screen2.classList.add('hide')
+  toggleScreen()
   xAttempts = 1
+}
+
+function toggleScreen() {
+  screen1.classList.toggle('hide')
+  screen2.classList.toggle('hide')
 }
