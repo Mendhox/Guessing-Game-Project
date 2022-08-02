@@ -15,9 +15,15 @@ function handleTryClick(event) {
     screen1.classList.add('hide')
     screen2.classList.remove('hide')
 
-    document.querySelector(
-      '.screen2 h2'
-    ).innerText = `Você acertou em ${xAttempts} tentativas`
+    if (xAttempts == 1) {
+      document.querySelector(
+        '.screen2 h2'
+      ).innerText = `You guessed the number in ${xAttempts} attempt.`
+    } else {
+      document.querySelector(
+        '.screen2 h2'
+      ).innerText = `You guessed the number in ${xAttempts} attempts.`
+    }
   }
 
   inputNumber.value = ''
