@@ -1,3 +1,6 @@
+// Variables
+const btnTry = document.querySelector('#btnTry')
+const btnReset = document.querySelector('#btnReset')
 const screen1 = document.querySelector('.screen1')
 const screen2 = document.querySelector('.screen2')
 
@@ -5,7 +8,7 @@ const randomNumber = Math.round(Math.random() * 10)
 
 let xAttempts = 1
 
-// Callback function
+// Callback function & Events
 function handleTryClick(event) {
   event.preventDefault()
 
@@ -30,10 +33,6 @@ function handleTryClick(event) {
 
   xAttempts++
 }
-
-//Events
-const btnTry = document.querySelector('#btnTry')
-const btnReset = document.querySelector('#btnReset')
 
 btnTry.addEventListener('click', handleTryClick)
 btnReset.addEventListener('click', function () {
