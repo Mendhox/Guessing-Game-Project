@@ -8,7 +8,11 @@ const randomNumber = Math.round(Math.random() * 10)
 
 let xAttempts = 1
 
-// Callback function & Events
+// Events
+btnTry.addEventListener('click', handleTryClick)
+btnReset.addEventListener('click', handleResetClick)
+
+// Callback functions
 function handleTryClick(event) {
   event.preventDefault()
 
@@ -34,9 +38,8 @@ function handleTryClick(event) {
   xAttempts++
 }
 
-btnTry.addEventListener('click', handleTryClick)
-btnReset.addEventListener('click', function () {
+function handleResetClick() {
   screen1.classList.remove('hide')
   screen2.classList.add('hide')
   xAttempts = 1
-})
+}
