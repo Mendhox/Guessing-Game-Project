@@ -6,7 +6,7 @@ https://user-images.githubusercontent.com/69018784/192616990-3eba5ab9-8e61-439e-
 
 <ul>
   <p>In this challenge I had to create an application from a Figma layout in order to practice what I learned in the Stage 05.</p>
-  <a href="https://mendhox.github.io/Guessing-Game-Project/" target="_blank">View Page</a>
+  <a href="https://mendhox.github.io/Number-Guessing-Game-Project/" target="_blank">View Page</a>
 </ul>
 <p>Main skills learned</p>
 <ul>
