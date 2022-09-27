@@ -1,4 +1,4 @@
-<h1>Project - Guessing Game</h1>
+<h1>Project - Number Guessing Game</h1>
 
 <img src="./img/guessing_game.png" alt="Project Snapshot">
 
