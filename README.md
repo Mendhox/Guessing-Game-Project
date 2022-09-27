@@ -1,3 +1,5 @@
+<h1>Guessing Game Project</h1>
+
 <img src="./img/guessing_game.png" alt="Project Snapshot">
 
 <h2 id="about">About the project</h2>
